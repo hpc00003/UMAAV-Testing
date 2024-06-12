@@ -1,0 +1,70 @@
+[0.741s] Invoking command in '/home/hcoyle444/ros_drone_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hcoyle444/ros_drone_ws/build/px4_ros_com -- -j20 -l20
+[0.885s] [  0%] Built target ament_cmake_python_copy_px4_ros_com
+[0.912s] [ 16%] Built target frame_transforms
+[0.924s] [ 50%] Built target vehicle_gps_position_listener
+[0.924s] [ 50%] Built target offboard_control_srv
+[0.925s] [ 66%] Built target sensor_combined_listener
+[0.925s] [ 83%] Built target offboard_control
+[0.928s] [100%] Built target debug_vect_advertiser
+[1.183s] running egg_info
+[1.200s] writing px4_ros_com.egg-info/PKG-INFO
+[1.200s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[1.202s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[1.248s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.249s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.280s] [100%] Built target ament_cmake_python_build_px4_ros_com_egg
+[1.293s] Invoked command in '/home/hcoyle444/ros_drone_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hcoyle444/ros_drone_ws/build/px4_ros_com -- -j20 -l20
+[1.345s] Invoking command in '/home/hcoyle444/ros_drone_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hcoyle444/ros_drone_ws/build/px4_ros_com
+[1.355s] -- Install configuration: ""
+[1.359s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[1.360s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[1.362s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[1.364s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[1.365s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[1.366s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[1.367s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[1.367s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/include/px4_ros_com
+[1.368s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[1.369s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/lib/libframe_transforms.so
+[1.370s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com//launch
+[1.371s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[1.371s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[1.371s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com//test
+[1.372s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[1.373s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[1.373s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[1.373s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[1.373s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[1.373s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[1.374s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[1.374s] -- Installing: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[1.375s] -- Installing: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[1.375s] -- Installing: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[1.375s] -- Installing: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[1.375s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[1.376s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[1.376s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[1.419s] Listing '/home/hcoyle444/ros_drone_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[1.425s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[1.426s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[1.427s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[1.428s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[1.428s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[1.428s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[1.428s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[1.428s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[1.428s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[1.428s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[1.428s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[1.428s] -- Installing: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[1.429s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[1.432s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[1.432s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[1.432s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.432s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[1.433s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.433s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[1.433s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[1.433s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[1.433s] -- Up-to-date: /home/hcoyle444/ros_drone_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[1.437s] Invoked command in '/home/hcoyle444/ros_drone_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hcoyle444/ros_drone_ws/build/px4_ros_com

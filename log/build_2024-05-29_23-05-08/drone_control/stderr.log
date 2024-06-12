@@ -1,0 +1,23 @@
+/home/hcoyle444/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+  File "/home/hcoyle444/ros_drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/drone_mission.py", line 58
+    ros2 topic echo /fmu/out/vehicle_local_position
+         ^^^^^
+SyntaxError: invalid syntax
+
+  File "/home/hcoyle444/ros_drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/drone_mission_test.py", line 59
+    ros2 topic echo /fmu/out/vehicle_local_position
+         ^^^^^
+SyntaxError: invalid syntax
+

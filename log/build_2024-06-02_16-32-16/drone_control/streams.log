@@ -1,0 +1,41 @@
+[0.725s] Invoking command in '/home/hcoyle444/ros_drone_ws/src/drone_control': AMENT_PREFIX_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs LD_LIBRARY_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hcoyle444/ros_drone_ws/build/drone_control/prefix_override:/home/hcoyle444/ros_drone_ws/install/drone_control/lib/python3.10/site-packages:/home/hcoyle444/ros_drone_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_control build --build-base /home/hcoyle444/ros_drone_ws/build/drone_control/build install --record /home/hcoyle444/ros_drone_ws/build/drone_control/install.log --single-version-externally-managed
+[0.854s] running egg_info
+[0.862s] writing ../../build/drone_control/drone_control.egg-info/PKG-INFO
+[0.863s] writing dependency_links to ../../build/drone_control/drone_control.egg-info/dependency_links.txt
+[0.863s] writing entry points to ../../build/drone_control/drone_control.egg-info/entry_points.txt
+[0.863s] writing requirements to ../../build/drone_control/drone_control.egg-info/requires.txt
+[0.863s] writing top-level names to ../../build/drone_control/drone_control.egg-info/top_level.txt
+[0.880s] reading manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[0.880s] writing manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[0.880s] running build
+[0.880s] running build_py
+[0.880s] copying drone_control/drone_mission.py -> /home/hcoyle444/ros_drone_ws/build/drone_control/build/lib/drone_control
+[0.881s] copying drone_control/__init__.py -> /home/hcoyle444/ros_drone_ws/build/drone_control/build/lib/drone_control
+[0.881s] copying drone_control/b.py -> /home/hcoyle444/ros_drone_ws/build/drone_control/build/lib/drone_control
+[0.881s] running install
+[0.881s] /home/hcoyle444/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.881s] !!
+[0.881s] 
+[0.881s]         ********************************************************************************
+[0.881s]         Please avoid running ``setup.py`` directly.
+[0.882s]         Instead, use pypa/build, pypa/installer or other
+[0.882s]         standards-based tools.
+[0.882s] 
+[0.882s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.882s]         ********************************************************************************
+[0.882s] 
+[0.882s] !!
+[0.882s]   self.initialize_options()
+[0.885s] running install_lib
+[0.893s] copying /home/hcoyle444/ros_drone_ws/build/drone_control/build/lib/drone_control/drone_mission.py -> /home/hcoyle444/ros_drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+[0.894s] byte-compiling /home/hcoyle444/ros_drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/drone_mission.py to drone_mission.cpython-310.pyc
+[0.895s] running install_data
+[0.903s] copying resource/drone_control -> /home/hcoyle444/ros_drone_ws/install/drone_control/share/ament_index/resource_index/packages
+[0.903s] copying package.xml -> /home/hcoyle444/ros_drone_ws/install/drone_control/share/drone_control
+[0.903s] running install_egg_info
+[0.913s] removing '/home/hcoyle444/ros_drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.913s] Copying ../../build/drone_control/drone_control.egg-info to /home/hcoyle444/ros_drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control-0.0.0-py3.10.egg-info
+[0.914s] running install_scripts
+[0.992s] Installing drone_mission script to /home/hcoyle444/ros_drone_ws/install/drone_control/lib/drone_control
+[0.992s] writing list of installed files to '/home/hcoyle444/ros_drone_ws/build/drone_control/install.log'
+[1.011s] Invoked command in '/home/hcoyle444/ros_drone_ws/src/drone_control' returned '0': AMENT_PREFIX_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs LD_LIBRARY_PATH=/home/hcoyle444/ros_drone_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hcoyle444/ros_drone_ws/build/drone_control/prefix_override:/home/hcoyle444/ros_drone_ws/install/drone_control/lib/python3.10/site-packages:/home/hcoyle444/ros_drone_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_control build --build-base /home/hcoyle444/ros_drone_ws/build/drone_control/build install --record /home/hcoyle444/ros_drone_ws/build/drone_control/install.log --single-version-externally-managed

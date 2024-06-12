@@ -1,0 +1,24 @@
+[0.653s] Invoking command in '/home/vini_dunker/MRT-19/ros_drone_ws/src/drone_control': PYTHONPATH=/home/vini_dunker/MRT-19/ros_drone_ws/build/drone_control/prefix_override:/home/vini_dunker/MRT-19/ros_drone_ws/install/drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_control build --build-base /home/vini_dunker/MRT-19/ros_drone_ws/build/drone_control/build install --record /home/vini_dunker/MRT-19/ros_drone_ws/build/drone_control/install.log --single-version-externally-managed
+[0.925s] running egg_info
+[0.925s] writing ../../build/drone_control/drone_control.egg-info/PKG-INFO
+[0.925s] writing dependency_links to ../../build/drone_control/drone_control.egg-info/dependency_links.txt
+[0.925s] writing entry points to ../../build/drone_control/drone_control.egg-info/entry_points.txt
+[0.925s] writing requirements to ../../build/drone_control/drone_control.egg-info/requires.txt
+[0.926s] writing top-level names to ../../build/drone_control/drone_control.egg-info/top_level.txt
+[0.927s] reading manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[0.927s] writing manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[0.928s] running build
+[0.928s] running build_py
+[0.928s] copying drone_control/drone_mission.py -> /home/vini_dunker/MRT-19/ros_drone_ws/build/drone_control/build/lib/drone_control
+[0.928s] running install
+[0.929s] running install_lib
+[0.930s] copying /home/vini_dunker/MRT-19/ros_drone_ws/build/drone_control/build/lib/drone_control/drone_mission.py -> /home/vini_dunker/MRT-19/ros_drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+[0.931s] byte-compiling /home/vini_dunker/MRT-19/ros_drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/drone_mission.py to drone_mission.cpython-310.pyc
+[0.932s] running install_data
+[0.932s] running install_egg_info
+[0.934s] removing '/home/vini_dunker/MRT-19/ros_drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.934s] Copying ../../build/drone_control/drone_control.egg-info to /home/vini_dunker/MRT-19/ros_drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control-0.0.0-py3.10.egg-info
+[0.935s] running install_scripts
+[0.953s] Installing drone_mission script to /home/vini_dunker/MRT-19/ros_drone_ws/install/drone_control/lib/drone_control
+[0.953s] writing list of installed files to '/home/vini_dunker/MRT-19/ros_drone_ws/build/drone_control/install.log'
+[0.978s] Invoked command in '/home/vini_dunker/MRT-19/ros_drone_ws/src/drone_control' returned '0': PYTHONPATH=/home/vini_dunker/MRT-19/ros_drone_ws/build/drone_control/prefix_override:/home/vini_dunker/MRT-19/ros_drone_ws/install/drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_control build --build-base /home/vini_dunker/MRT-19/ros_drone_ws/build/drone_control/build install --record /home/vini_dunker/MRT-19/ros_drone_ws/build/drone_control/install.log --single-version-externally-managed
